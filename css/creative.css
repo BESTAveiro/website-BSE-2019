@@ -104,7 +104,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: black;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -126,7 +126,7 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: white;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -147,8 +147,8 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent;
+    border-color: rgba(25,25,25,80);
+    background-color: rgba(25,25,25,80);
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -165,7 +165,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #32BEBA;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -318,13 +318,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #FBC415;
+  border-color: #FBC415;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color:#e88326 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
