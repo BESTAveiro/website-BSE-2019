@@ -1,4 +1,4 @@
-/*
+
 
 (function($) {
   "use strict"; // Start of use strict
@@ -75,7 +75,7 @@
     scale: 0
   });
 
-  // Magnific popup calls
+ /* // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
     type: 'image',
@@ -89,6 +89,6 @@
     image: {
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
-  });
+  });*/
 
 })(jQuery); // End of use strict
