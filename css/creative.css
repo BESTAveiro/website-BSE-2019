@@ -318,13 +318,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #FBC415;
-  border-color: #FBC415;
+  background-color: #8AAA56 ;
+  border-color: #8AAA56;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color:#e88326 !important;
+  background-color:#32BEBA !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
