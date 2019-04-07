@@ -99,7 +99,7 @@
     if ($(document).scrollTop() >= 10) {
       console.log("navabr");
       $("#mainNav").css( {
-        backgroundColor: " black" , position: "fixed"
+        backgroundColor: "  rgba(0, 0, 0, 0.9)" , position: "fixed"
 
           }
 
