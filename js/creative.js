@@ -93,7 +93,33 @@
 
 
 
+  // navbar no scrooll
+  $(window).scroll(function() {
 
+    if ($(document).scrollTop() >= 10) {
+      console.log("navabr");
+      $("#mainNav").css( {
+        backgroundColor: " black" , position: "fixed"
+
+          }
+
+      );
+
+
+
+
+
+    } else  {
+      console.log("volta");
+      $("#mainNav").css( {
+
+        backgroundColor: "transparent" , position: "fixed"
+          }
+
+      );
+
+    }
+  });
 
 
 })(jQuery); // End of use strict
