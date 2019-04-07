@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 #video-background {
@@ -26,6 +27,8 @@ body {
   z-index: -100;
 }
 
+
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -37,13 +40,13 @@ hr.light {
 }
 
 a {
-  color: #FBC415;
+  color: #8AAA56;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color:#fffb25;
+  color:#32BEBA;
 }
 
 h1,
@@ -211,13 +214,40 @@ header.masthead p {
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 200px) and (max-width: 991.98px) {
+
+  #evento, #SG,#sche,#sy, #BA,#Aveiro {
+
+    display:block;
+  }
+
+  #evento2,#SG2, #sche2,#sy2,#BA2, #Aveiro2{
+
+    display:none;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   header.masthead p {
     font-size: 1.15rem;
   }
+    #evento, #SG,#sche,#sy, #BA,#Aveiro {
+
+    display:none;
+
+  }
+
+    #evento2,#SG2, #sche2,#sy2,#BA2, #Aveiro2{
+
+    display:block;
+  }
+
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   header.masthead {
     height: 100vh;
     min-height: 650px;
@@ -227,12 +257,36 @@ header.masthead p {
   header.masthead h1 {
     font-size: 3rem;
   }
+
+    #evento, #SG,#sche,#sy, #BA,#Aveiro {
+
+        display:none;
+
+    }
+
+    #evento2,#SG2, #sche2,#sy2,#BA2, #Aveiro2{
+
+        display:block;
+    }
+
+
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 4rem;
   }
+    #evento, #SG,#sche,#sy, #BA,#Aveiro {
+
+        display:none;
+
+    }
+
+    #evento2,#SG2, #sche2,#sy2,#BA2, #Aveiro2{
+
+        display:block;
+    }
+
 }
 
 .service-box {
