@@ -97,7 +97,7 @@
 
 
   // navbar no scrooll
-  $(window).scroll(function() {
+  /*$(window).scroll(function() {
 
     if ($(document).scrollTop() >= 10) {
       console.log("navabr");
@@ -123,6 +123,6 @@
 
     }
   });
-
+*/
 
 })(jQuery); // End of use strict
